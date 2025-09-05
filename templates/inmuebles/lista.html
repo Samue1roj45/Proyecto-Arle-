@@ -1,0 +1,12 @@
+{% extends 'inmuebles/base.html' %}
+{% load humanize %}
+{% block title %}Propiedades{% endblock %}
+{% block content %}
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    {% for inmueble in inmuebles %}
+      {% include 'inmuebles/_card.html' with i=inmueble %}
+    {% empty %}
+      <p>No hay inmuebles disponibles.</p>
+    {% endfor %}
+  </div>
+{% endblock %}

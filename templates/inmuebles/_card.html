@@ -1,0 +1,20 @@
+{% load humanize %}
+<article class="bg-zinc-900 rounded-2xl overflow-hidden border border-zinc-800">
+  <a href="{% url 'inmueble-detalle' i.pk %}">
+    {% if i.imagen %}
+      <img src="{{ i.imagen.url }}" alt="{{ i.titulo }}" class="h-48 w-full object-cover">
+    {% else %}
+      <div class="h-48 w-full bg-zinc-800"></div>
+    {% endif %}
+  </a>
+  <div class="p-4">
+    <h3 class="text-lg font-semibold">${{ i.precio|intcomma }}</h3>
+    <p class="text-zinc-400 text-sm">{{ i.ciudad }}, {{ i.estado }}</p>
+    <p class="text-zinc-400 text-sm mt-1">
+      {{ i.habitaciones }} beds · {{ i.banos }} baths · {{ i.area_sqft|intcomma }} sqft
+    </p>
+    <a href="{% url 'inmueble-detalle' i.pk %}" class="inline-block mt-3 text-sm underline">
+      Ver detalles
+    </a>
+  </div>
+</article>
