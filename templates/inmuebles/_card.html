@@ -13,6 +13,20 @@
     <p class="text-zinc-400 text-sm mt-1">
       {{ i.habitaciones }} beds · {{ i.banos }} baths · {{ i.area_sqft|intcomma }} sqft
     </p>
+      <!-- Botón de favoritos -->
+      <div class="mt-2">
+        {% if i.id in favoritos_ids %}
+          <a href="{% url 'eliminar_favorito' i.id %}"
+             class="px-3 py-1 bg-red-500 text-white rounded-lg hover:bg-red-600">
+             ❌ Eliminar de favoritos
+          </a>
+        {% else %}
+          <a href="{% url 'agregar_favorito' i.id %}"
+             class="px-3 py-1 bg-yellow-500 text-black rounded-lg hover:bg-yellow-600">
+             ⭐ Agregar a favoritos
+          </a>
+        {% endif %}
+      </div>
     <a href="{% url 'inmueble-detalle' i.pk %}" class="inline-block mt-3 text-sm underline">
       Ver detalles
     </a>
