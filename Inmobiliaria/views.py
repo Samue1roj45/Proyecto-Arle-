@@ -3,15 +3,32 @@ from .models import Propietario, Inmueble, Favorito
 from .serializers import PropietarioSerializer, InmuebleSerializer, FavoritoSerializer
 #mostrar inmuebles en un html
 from django.shortcuts import render,get_object_or_404
-from .models import Inmueble
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import redirect
+
+@login_required
+def agregar_favorito(request, inmueble_id):
+    inmueble = Inmueble.objects.get(id=inmueble_id)
+    Favorito.objects.get_or_create(usuario=request.user, inmueble=inmueble)
+    return redirect("lista_inmuebles")
+
+@login_required
+def eliminar_favorito(request, inmueble_id):
+    Favorito.objects.filter(usuario=request.user, inmueble_id=inmueble_id).delete()
+    return redirect("lista_inmuebles")
+
 
 def detalle_inmueble(request, pk):
     inmueble = get_object_or_404(Inmueble, pk=pk)
     return render(request, "inmuebles/detalle.html", {"inmueble": inmueble})
 
 def lista_inmuebles(request):
-    inmuebles = Inmueble.objects.all().order_by('-fecha_publicacion')
-    return render(request, "inmuebles/lista.html", {"inmuebles": inmuebles})
+    inmuebles = Inmueble.objects.all()
+    favoritos_ids = Favorito.objects.filter(usuario=request.user).values_list("inmueble_id", flat=True)
+    return render(request, "inmuebles/lista.html", {
+        "inmuebles": inmuebles,
+        "favoritos_ids": favoritos_ids,
+    })
 
 
 class PropietarioViewSet(viewsets.ModelViewSet):
