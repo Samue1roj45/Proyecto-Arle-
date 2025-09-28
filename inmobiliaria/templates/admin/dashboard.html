@@ -2,34 +2,37 @@
 {% load static %}
 
 {% block content %}
-<h1 style="margin-bottom: 20px;">📊 Dashboard HomeFinder</h1>
+<div style="display: grid; justify-content: space-between; align-items: flex-start;">
+    <h1 style="margin-bottom: 20px;font-size: 28px;">📊 Dashboard HomeFinder</h1>
 
-<!-- Tarjetas métricas -->
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-bottom: 30px;">
-    <div style="background: linear-gradient(135deg,#2563eb,#1d4ed8); color:white; padding:20px; border-radius:12px; text-align:center; box-shadow:0 4px 6px rgba(0,0,0,0.1);">
-        <h2 style="margin:0; font-size:18px;">🏠 Total Inmuebles</h2>
-        <p id="total_inmuebles" style="font-size:28px; font-weight:bold; margin-top:10px;">{{ total_inmuebles }}</p>
-    </div>
-    <div style="background: linear-gradient(135deg,#16a34a,#15803d); color:white; padding:20px; border-radius:12px; text-align:center; box-shadow:0 4px 6px rgba(0,0,0,0.1);">
-        <h2 style="margin:0; font-size:18px;">📌 Disponibles</h2>
-        <p id="disponibles" style="font-size:28px; font-weight:bold; margin-top:10px;">{{ disponibles }}</p>
-    </div>
-    <div style="background: linear-gradient(135deg,#dc2626,#991b1b); color:white; padding:20px; border-radius:12px; text-align:center; box-shadow:0 4px 6px rgba(0,0,0,0.1);">
-        <h2 style="margin:0; font-size:18px;">💰 Vendidos</h2>
-        <p id="vendidos" style="font-size:28px; font-weight:bold; margin-top:10px;">{{ vendidos }}</p>
-    </div>
-    <div style="background: linear-gradient(135deg,#ca8a04,#a16207); color:white; padding:20px; border-radius:12px; text-align:center; box-shadow:0 4px 6px rgba(0,0,0,0.1);">
-        <h2 style="margin:0; font-size:18px;">🏡 Rentados</h2>
-        <p id="rentados" style="font-size:28px; font-weight:bold; margin-top:10px;">{{ rentados }}</p>
-    </div>
+    <!-- Tarjetas métricas -->
+    <section style="margin-bottom: 10px;">
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 30px;">
+            <div style="background: linear-gradient(135deg,#2563eb,#1d4ed8); color:white; padding:20px; border-radius:12px; text-align:center; box-shadow:0 4px 6px rgba(0,0,0,0.1);" onmouseover=this.style.transform='scale(1.05)' onmouseout="this.style.transform='scale(1)'">
+                <h2 style="margin:0; font-size:18px;">🏠 Total Inmuebles</h2>
+                <p id="total_inmuebles" style="font-size:28px; font-weight:bold; margin-top:10px;">{{ total_inmuebles }}</p>
+            </div>
+            <div style="background: linear-gradient(135deg,#16a34a,#15803d); color:white; padding:20px; border-radius:12px; text-align:center; box-shadow:0 4px 6px rgba(0,0,0,0.1);" onmouseover=this.style.transform='scale(1.05)' onmouseout="this.style.transform='scale(1)'">
+                <h2 style="margin:0; font-size:18px;">📌 Disponibles</h2>
+                <p id="disponibles" style="font-size:28px; font-weight:bold; margin-top:10px;">{{ disponibles }}</p>
+            </div>
+            <div style="background: linear-gradient(135deg,#dc2626,#991b1b); color:white; padding:20px; border-radius:12px; text-align:center; box-shadow:0 4px 6px rgba(0,0,0,0.1);" onmouseover=this.style.transform='scale(1.05)' onmouseout="this.style.transform='scale(1)'">
+                <h2 style="margin:0; font-size:18px;">💰 Vendidos</h2>
+                <p id="vendidos" style="font-size:28px; font-weight:bold; margin-top:10px;">{{ vendidos }}</p>
+            </div>
+            <div style="background: linear-gradient(135deg,#ca8a04,#a16207); color:white; padding:20px; border-radius:12px; text-align:center; box-shadow:0 4px 6px rgba(0,0,0,0.1);" onmouseover=this.style.transform='scale(1.05)' onmouseout="this.style.transform='scale(1)'">
+                <h2 style="margin:0; font-size:18px;">🏡 Rentados</h2>
+                <p id="rentados" style="font-size:28px; font-weight:bold; margin-top:10px;">{{ rentados }}</p>
+            </div>
+        </div>
+
+        <!-- Total favoritos -->
+        <div style="margin-bottom:30px; padding:20px; background:#f9fafb; border:1px solid #e5e7eb; border-radius:10px;">
+            <h2 style="margin:0; font-size:20px;">⭐ Inmueble más agregado a favoritos</h2>
+            <p style="font-size:26px; font-weight:bold; color:#2563eb; margin-top:8px;">{{ favorito_top }}</p>
+        </div>
+    </section>
 </div>
-
-<!-- Total favoritos -->
-<div style="margin-bottom:30px; padding:20px; background:#f9fafb; border:1px solid #e5e7eb; border-radius:10px;">
-    <h2 style="margin:0; font-size:20px;">⭐ Inmueble más agregado a favoritos</h2>
-    <p style="font-size:26px; font-weight:bold; color:#2563eb; margin-top:8px;">{{ favorito_top }}</p>
-</div>
-
 <!-- Top inmuebles + Gráfico en 2 columnas -->
 <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; margin-bottom:30px;">
 

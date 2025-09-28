@@ -6,7 +6,7 @@ __pycache__/
 # Django
 db.sqlite3
 /media/
-
+.idea/workspace.xml
 # IDEs
 .idea/
 .vscode/

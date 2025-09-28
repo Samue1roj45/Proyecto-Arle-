@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d57e84c9-90b4-4e5a-b92c-19221a298126" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ignore" beforeDir="false" afterPath="$PROJECT_DIR$/.ignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inmobiliaria/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/inmobiliaria/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inmobiliaria/inmobiliaria/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/inmobiliaria/inmobiliaria/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inmobiliaria/inmuebles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/inmobiliaria/inmuebles/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inmobiliaria/templates/admin/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/inmobiliaria/templates/admin/dashboard.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "git-widget-placeholder": "version__1",
     "last_opened_file_path": "C:/Users/Usuario/PycharmProjects/Version1.0/inmobiliaria/static/js",
     "node.js.detected.package.eslint": "true",
@@ -91,6 +97,7 @@
       <workItem from="1758927757176" duration="6063000" />
       <workItem from="1758944724291" duration="1546000" />
       <workItem from="1758993232965" duration="20208000" />
+      <workItem from="1759081478849" duration="6217000" />
     </task>
     <servers />
   </component>

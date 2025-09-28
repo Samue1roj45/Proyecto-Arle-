@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from .models import Inmueble
 from .serializers import InmuebleSerializer
 from rest_framework import viewsets, permissions
