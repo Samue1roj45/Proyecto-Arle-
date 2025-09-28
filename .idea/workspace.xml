@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d57e84c9-90b4-4e5a-b92c-19221a298126" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Merging version__1",
+    "git-widget-placeholder": "version__1",
     "last_opened_file_path": "C:/Users/Usuario/PycharmProjects/Version1.0/inmobiliaria/static/js",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -91,7 +90,7 @@
       <workItem from="1758813519390" duration="13922000" />
       <workItem from="1758927757176" duration="6063000" />
       <workItem from="1758944724291" duration="1546000" />
-      <workItem from="1758993232965" duration="18982000" />
+      <workItem from="1758993232965" duration="19745000" />
     </task>
     <servers />
   </component>
