@@ -5,153 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d57e84c9-90b4-4e5a-b92c-19221a298126" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/media/inmuebles/Captura_de_pantalla_2025-02-22_220952.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/media/inmuebles/Captura_de_pantalla_2025-02-25_211236.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/media/inmuebles/WhatsApp_Image_2025-09-05_at_1.37.19_PM.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/media/inmuebles/bosque.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/media/inmuebles/bosque_NqFre10.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/media/inmuebles/lago.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/.package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/@kurkle/color/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/@kurkle/color/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/@kurkle/color/dist/color.cjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/@kurkle/color/dist/color.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/@kurkle/color/dist/color.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/@kurkle/color/dist/color.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/@kurkle/color/dist/color.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/@kurkle/color/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/auto/auto.cjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/auto/auto.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/auto/auto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/auto/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/chart.cjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/chart.cjs.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/chart.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/chart.umd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/chart.umd.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/chart.umd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/chart.umd.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/chunks/helpers.dataset.cjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/chunks/helpers.dataset.cjs.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/chunks/helpers.dataset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/chunks/helpers.dataset.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/controllers/controller.bar.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/controllers/controller.bubble.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/controllers/controller.doughnut.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/controllers/controller.line.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/controllers/controller.pie.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/controllers/controller.polarArea.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/controllers/controller.radar.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/controllers/controller.scatter.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/controllers/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/core/core.adapters.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/core/core.animation.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/core/core.animations.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/core/core.animations.defaults.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/core/core.animator.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/core/core.config.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/core/core.controller.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/core/core.datasetController.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/core/core.defaults.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/core/core.element.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/core/core.interaction.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/core/core.layouts.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/core/core.layouts.defaults.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/core/core.plugins.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/core/core.registry.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/core/core.scale.autoskip.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/core/core.scale.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/core/core.scale.defaults.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/core/core.ticks.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/core/core.typedRegistry.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/core/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/elements/element.arc.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/elements/element.bar.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/elements/element.line.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/elements/element.point.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/elements/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/helpers.cjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/helpers.cjs.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/helpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/helpers.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/helpers/helpers.canvas.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/helpers/helpers.collection.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/helpers/helpers.color.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/helpers/helpers.config.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/helpers/helpers.config.types.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/helpers/helpers.core.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/helpers/helpers.curve.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/helpers/helpers.dataset.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/helpers/helpers.dom.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/helpers/helpers.easing.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/helpers/helpers.extras.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/helpers/helpers.interpolation.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/helpers/helpers.intl.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/helpers/helpers.math.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/helpers/helpers.options.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/helpers/helpers.rtl.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/helpers/helpers.segment.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/helpers/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/index.umd.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/platform/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/platform/platform.base.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/platform/platform.basic.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/platform/platform.dom.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/plugins/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/plugins/plugin.colors.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/plugins/plugin.decimation.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/plugins/plugin.filler/filler.drawing.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/plugins/plugin.filler/filler.helper.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/plugins/plugin.filler/filler.options.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/plugins/plugin.filler/filler.segment.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/plugins/plugin.filler/filler.target.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/plugins/plugin.filler/filler.target.stack.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/plugins/plugin.filler/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/plugins/plugin.filler/simpleArc.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/plugins/plugin.legend.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/plugins/plugin.subtitle.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/plugins/plugin.title.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/plugins/plugin.tooltip.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/scales/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/scales/scale.category.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/scales/scale.linear.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/scales/scale.linearbase.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/scales/scale.logarithmic.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/scales/scale.radialLinear.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/scales/scale.time.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/scales/scale.timeseries.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/types.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/types/animation.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/types/basic.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/types/color.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/types/geometric.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/types/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/types/layout.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/dist/types/utils.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/helpers/helpers.cjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/helpers/helpers.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/helpers/helpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/helpers/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/node_modules/chart.js/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/static/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/static/js/chart.umd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inmobiliaria/static/js/dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Version1.0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Version1.0.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ignore" beforeDir="false" afterPath="$PROJECT_DIR$/.ignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inmobiliaria/inmobiliaria/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/inmobiliaria/inmobiliaria/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inmobiliaria/inmobiliaria/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/inmobiliaria/inmobiliaria/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inmobiliaria/inmuebles/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/inmobiliaria/inmuebles/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inmobiliaria/templates/admin/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/inmobiliaria/templates/admin/dashboard.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "version__1",
+    "git-widget-placeholder": "Merging version__1",
     "last_opened_file_path": "C:/Users/Usuario/PycharmProjects/Version1.0/inmobiliaria/static/js",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -236,7 +91,7 @@
       <workItem from="1758813519390" duration="13922000" />
       <workItem from="1758927757176" duration="6063000" />
       <workItem from="1758944724291" duration="1546000" />
-      <workItem from="1758993232965" duration="18189000" />
+      <workItem from="1758993232965" duration="18982000" />
     </task>
     <servers />
   </component>
