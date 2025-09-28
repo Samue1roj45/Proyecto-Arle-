@@ -8,7 +8,7 @@ from django.utils.html import format_html
 from django.contrib.auth.models import User, Group
 from django.contrib.auth.admin import UserAdmin, GroupAdmin
 
-# Importar tus modelos
+# Importar modelos
 from .models import Inmueble, Favorito
 
 
@@ -44,6 +44,13 @@ class CustomAdminSite(admin.AdminSite):
             Inmueble.objects.annotate(num_favoritos=Count("favoritos"))
             .order_by("-num_favoritos")[:5]
         )
+        # Inmueble más agregado a favoritos
+        favorito_top = (
+            Inmueble.objects
+            .annotate(num_favs=Count('favoritos'))
+            .order_by('-num_favs')
+            .first()
+        )
 
         context = {
             **self.each_context(request),
@@ -53,6 +60,7 @@ class CustomAdminSite(admin.AdminSite):
             "rentados": rentados,
             "total_favoritos": total_favoritos,
             "top_inmuebles": top_inmuebles,
+            "favorito_top": favorito_top,
         }
         return TemplateResponse(request, "admin/dashboard.html", context)
 
