@@ -55,7 +55,8 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'corsheaders',
     'inmuebles',
-    'usuarios',
+    'usuarios.apps.UsuariosConfig',
+    'carrito',
 ]
 
 REST_FRAMEWORK = {

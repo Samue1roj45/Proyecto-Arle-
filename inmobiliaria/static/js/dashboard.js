@@ -1,24 +1,26 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const ctx = document.getElementById("chartInmuebles").getContext("2d");
+    const ctx = document.getElementById("chartInmuebles")?.getContext("2d");
+    if (!ctx) return;
+
+    const disponibles = parseInt(document.getElementById("disponibles")?.textContent || 0);
+    const rentados = parseInt(document.getElementById("rentados")?.textContent || 0);
 
     new Chart(ctx, {
         type: "doughnut",
         data: {
-            labels: ["Disponibles", "Vendidos", "Rentados"],
+            labels: ["Disponibles", "Rentados"],
             datasets: [{
-                data: [parseInt(document.getElementById("disponibles")?.textContent || 0),
-                       parseInt(document.getElementById("vendidos")?.textContent || 0),
-                       parseInt(document.getElementById("rentados")?.textContent || 0)],
-                backgroundColor: ["#16a34a", "#dc2626", "#ca8a04"]
-            }]
+                data: [disponibles, rentados],
+                backgroundColor: ["#16a34a", "#ca8a04"],
+            }],
         },
         options: {
             responsive: true,
             plugins: {
                 legend: {
-                    position: "bottom"
-                }
-            }
-        }
+                    position: "bottom",
+                },
+            },
+        },
     });
 });

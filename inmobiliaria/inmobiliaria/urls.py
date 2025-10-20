@@ -33,6 +33,9 @@ urlpatterns = [
 
     # Ruta usuarios
     path("api/", include("usuarios.urls")),
+
+    #Carrito
+    path('api/', include('carrito.urls')),
 ]
 if settings.DEBUG:  # solo en desarrollo
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

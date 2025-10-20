@@ -1,5 +1,4 @@
 from django.contrib import admin
-from django.urls import path
 from django.template.response import TemplateResponse
 from django.db.models import Count
 from django.utils.html import format_html
@@ -8,8 +7,10 @@ from django.utils.html import format_html
 from django.contrib.auth.models import User, Group
 from django.contrib.auth.admin import UserAdmin, GroupAdmin
 
+from usuarios.models import PerfilUsuario
 # Importar modelos
 from .models import Inmueble, Favorito
+from carrito.models import Carrito
 
 
 # ---- Custom AdminSite ----
@@ -30,12 +31,11 @@ class CustomAdminSite(admin.AdminSite):
 
     def index(self, request, extra_context=None):
         """
-        Sobrescribimos la vista principal del admin para mostrar el dashboard.
+        Mostrar el dashboard.
         """
         # Métricas de inmuebles
         total_inmuebles = Inmueble.objects.count()
         disponibles = Inmueble.objects.filter(status="Available").count()
-        vendidos = Inmueble.objects.filter(status="Sold").count()
         rentados = Inmueble.objects.filter(status="Rented").count()
 
         # Métricas de favoritos
@@ -56,7 +56,6 @@ class CustomAdminSite(admin.AdminSite):
             **self.each_context(request),
             "total_inmuebles": total_inmuebles,
             "disponibles": disponibles,
-            "vendidos": vendidos,
             "rentados": rentados,
             "total_favoritos": total_favoritos,
             "top_inmuebles": top_inmuebles,
@@ -72,8 +71,8 @@ custom_admin_site = CustomAdminSite(name="custom_admin")
 # ---- Admin para Inmueble ----
 @admin.register(Inmueble, site=custom_admin_site)
 class InmuebleAdmin(admin.ModelAdmin):
-    list_display = ("id", "titulo", "precio", "ciudad", "status")
-    search_fields = ("titulo", "ciudad", "estado")
+    list_display = ("id",  "descripcion", "tipo", "precio", "estado", "ciudad", "status", "mostrar_imagen")
+    search_fields = ("tipo", "ciudad", "estado")
     list_filter = ("status", "tipo", "ciudad")
 
     def mostrar_imagen(self, obj):
@@ -89,9 +88,29 @@ class InmuebleAdmin(admin.ModelAdmin):
 @admin.register(Favorito, site=custom_admin_site)
 class FavoritoAdmin(admin.ModelAdmin):
     list_display = ("id", "usuario", "inmueble", "fecha_agregado")
-    search_fields = ("usuario__username", "inmueble__titulo")
+    search_fields = ("usuario__username", "inmueble__tipo")
     list_filter = ("fecha_agregado",)
 
+# ---- Admin para Carrito ----
+@admin.register(Carrito, site=custom_admin_site)
+class CarritoAdmin(admin.ModelAdmin):
+    list_display = ("usuario", "inmueble", "fecha_agregado")
+    search_fields = ("usuario__username", "inmueble__tipo")
+    list_filter = ("fecha_agregado",)
+    ordering = ("-fecha_agregado",)
+
+
+@admin.register(PerfilUsuario, site=custom_admin_site)
+class PerfilUsuarioAdmin(admin.ModelAdmin):
+    list_display = ('user', 'mostrar_foto',)  # aqui la mostramos en la lista
+    readonly_fields = ('mostrar_foto',)  # para que se vea también dentro del formulario
+
+    def mostrar_foto(self, obj):
+        if obj.foto:
+            return format_html('<img src="{}" width="60" height="60" style="border-radius:50%;" />', obj.foto.url)
+        return "(Sin foto)"
+
+    mostrar_foto.short_description = "Foto de perfil"
 
 # ---- Registrar usuarios y grupos ----
 custom_admin_site.register(User, UserAdmin)

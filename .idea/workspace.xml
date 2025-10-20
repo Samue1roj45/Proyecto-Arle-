@@ -5,17 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d57e84c9-90b4-4e5a-b92c-19221a298126" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/inmobiliaria/usuarios/signals.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ignore" beforeDir="false" afterPath="$PROJECT_DIR$/.ignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inmobiliaria/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/inmobiliaria/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inmobiliaria/inmobiliaria/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/inmobiliaria/inmobiliaria/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inmobiliaria/inmuebles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/inmobiliaria/inmuebles/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inmobiliaria/inmobiliaria/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/inmobiliaria/inmobiliaria/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inmobiliaria/inmuebles/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/inmobiliaria/inmuebles/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inmobiliaria/inmuebles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/inmobiliaria/inmuebles/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inmobiliaria/static/js/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/inmobiliaria/static/js/dashboard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inmobiliaria/templates/admin/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/inmobiliaria/templates/admin/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inmobiliaria/usuarios/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/inmobiliaria/usuarios/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inmobiliaria/usuarios/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/inmobiliaria/usuarios/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inmobiliaria/usuarios/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/inmobiliaria/usuarios/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inmobiliaria/usuarios/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/inmobiliaria/usuarios/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inmobiliaria/usuarios/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/inmobiliaria/usuarios/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../Version1.0\exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,32 +59,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "git-widget-placeholder": "version__1",
-    "last_opened_file_path": "C:/Users/Usuario/PycharmProjects/Version1.0/inmobiliaria/static/js",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.intellij.python.django.customization.DjangoModulesConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;version__1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/PycharmProjects/Version1.0/inmobiliaria/inmuebles/templates&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.python.django.customization.DjangoModulesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\PycharmProjects\Version1.0\inmobiliaria\inmuebles\templates" />
+      <recent name="C:\Users\Usuario\PycharmProjects\Version1.0\inmobiliaria\inmuebles" />
       <recent name="C:\Users\Usuario\PycharmProjects\Version1.0\inmobiliaria\static\js" />
       <recent name="C:\Users\Usuario\PycharmProjects\Version1.0\inmobiliaria\media" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Usuario\PycharmProjects\Version1.0\inmobiliaria\media\inmuebles" />
+      <recent name="C:\Users\Usuario\PycharmProjects\Version1.0\inmobiliaria\inmuebles" />
+      <recent name="C:\Users\Usuario\PycharmProjects\Version1.0\inmobiliaria\static\imgfront" />
+      <recent name="C:\Users\Usuario\PycharmProjects\Version1.0\inmobiliaria\static\cssfront" />
+      <recent name="C:\Users\Usuario\PycharmProjects\Version1.0\inmobiliaria\static\jsfront" />
+      <recent name="C:\Users\Usuario\PycharmProjects\Version1.0\inmobiliaria\templates" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -97,7 +115,14 @@
       <workItem from="1758927757176" duration="6063000" />
       <workItem from="1758944724291" duration="1546000" />
       <workItem from="1758993232965" duration="20208000" />
-      <workItem from="1759081478849" duration="6217000" />
+      <workItem from="1759081478849" duration="6541000" />
+      <workItem from="1759088738116" duration="29000" />
+      <workItem from="1759628114218" duration="1915000" />
+      <workItem from="1760480846061" duration="421000" />
+      <workItem from="1760537587530" duration="1198000" />
+      <workItem from="1760825779870" duration="19529000" />
+      <workItem from="1760888645253" duration="15884000" />
+      <workItem from="1760914093060" duration="4471000" />
     </task>
     <servers />
   </component>
